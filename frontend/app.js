@@ -24,7 +24,7 @@ import (
   "math/big"
   "strings"
   "sort"
-  "slice"
+  "slices"
   "container/heap"
   "bufio"
   "os"
