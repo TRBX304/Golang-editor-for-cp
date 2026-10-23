@@ -18,14 +18,21 @@ const compileBox = $('compileBox');
 const MONACO_BASE = 'https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min';
 
 const TEMPLATE = `package main
-
-import "fmt"
-
+import (
+  "fmt"
+  "math"
+  "math/big"
+  "strings"
+  "sort"
+  "slice"
+  "container/heap"
+  "bufio"
+  "os"
+)
 func main() {
 	var n int
 	fmt.Scan(&n)
 	// 処理はここから
-
 }
 `;
 
